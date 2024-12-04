@@ -30,3 +30,18 @@
    cd gender-detection-cnn
 
 
+## Model Architecture
+The CNN architecture is optimized for gender classification and consists of:
+
+Convolutional Layers: Extract spatial features from the images.
+Batch Normalization: Speeds up convergence and stabilizes training.
+MaxPooling Layers: Reduces spatial dimensions for computational efficiency.
+Dropout Layers: Prevents overfitting by randomly dropping neurons during training.
+Dense Layers: Fully connected layers for classification.
+
+
+## Compilation Details:
+Optimizer: Adam
+Loss Function: Binary Crossentropy
+Metrics: Accuracy
+
