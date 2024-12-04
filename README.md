@@ -2,17 +2,31 @@
 # Gender-Detection-by-Face
  Dataset Link - https://www.kaggle.com/datasets/rashikrahmanpritom/gender-recognition-dataset/data
 
-Directory Structure for Dataset :
+## Features  
+- **Real-time Gender Detection**: Leverages OpenCV and a pre-trained CNN model to detect and classify gender through webcam video.  
+- **Custom CNN Architecture**: Optimized architecture with convolutional layers, batch normalization, and dropout for efficient feature extraction and classification.  
+- **Data Augmentation**: Improves model generalization using transformations such as rotation, flipping, and zooming.  
+- **Performance Metrics**: Includes ROC Curve, Confusion Matrix, and accuracy/loss plots for model evaluation.  
 
-- **/gender_dataset_face/**: Root directory containing all the data.
-  - **/Train/**: Contains training data.
-    - **/man/**: Images of men for training.
-    - img1.jpg
-    - img2.jpg
-    - ....
-  - **/woman/**: Images of women for training.
-    - img1.jpg
-    - img2.jpg
-    - ....
+---
+
+## Table of Contents  
+1. [Installation](#installation)  
+2. [Dataset](#dataset)  
+3. [Model Architecture](#model-architecture)  
+4. [Usage](#usage)  
+5. [Results](#results)  
+6. [Technologies Used](#technologies-used)  
+7. [Contributing](#contributing)  
+8. [License](#license)  
+
+---
+
+## Installation  
+
+1. Clone the repository:  
+   ```bash
+   git clone https://github.com/your-username/gender-detection-cnn.git
+   cd gender-detection-cnn
 
 
