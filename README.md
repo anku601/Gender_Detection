@@ -32,6 +32,9 @@
 
 ## Model Architecture
 The CNN architecture is optimized for gender classification and consists of:
+![image](https://github.com/user-attachments/assets/502ce16c-f49a-46d7-9795-d13b93797bca)
+
+
 
 Convolutional Layers: Extract spatial features from the images.
 
@@ -46,6 +49,41 @@ Dense Layers: Fully connected layers for classification.
 
 ## Compilation Details:
 Optimizer: Adam
+
 Loss Function: Binary Crossentropy
+
 Metrics: Accuracy
+
+## Results
+Key Metrics
+
+Validation Accuracy: 93%
+
+Visualizations
+
+Accuracy & Loss
+
+
+Confusion Matrix
+![image](https://github.com/user-attachments/assets/67264fea-648e-4602-a377-b54a9bfc22db)
+
+
+ROC Curve
+![output](https://github.com/user-attachments/assets/96ad4da4-0659-40d4-9a45-de93774d1b03)
+
+
+Real-Time Detection
+
+
+## Technologies Used
+Python
+
+TensorFlow/Keras
+
+OpenCV
+
+Scikit-learn
+
+Matplotlib
+
 
