@@ -74,8 +74,12 @@ ROC Curve
 
 Real-Time Detection
 
+![WhatsApp Image 2024-12-01 at 12 32 19_c0730ed2](https://github.com/user-attachments/assets/f9e84722-73d5-46e4-a3f5-e3517caa3dbd)
+
+
 
 ## Technologies Used
+
 Python
 
 TensorFlow/Keras
